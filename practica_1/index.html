@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<!-- Ejercicio 1-->
     <link rel="stylesheet" href="styles.css">
-    <title>Holiwis</title>
+    <title>Holiwis Actividad 7: HTML5</title>
 </head>
 
 <body>
@@ -17,9 +17,10 @@
 
     <nav>
         <ul>
+            <!--Ejercicio 3, listas y accesos.-->
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="pagina2.html" target="_blank">Pagina2</a></li>
+            <li><a href="#contacto">Nada realmente</a></li>
         </ul>
     </nav>
 
@@ -27,12 +28,32 @@
         <section>
             <article>
                 <h2>Artículo Principal</h2>
-                <p>Contenido del artículo principal.</p>
+                <!--Ejercicio 2: parrafos y enlaces-->
+                <p>Contenido del artículo principal.
+                    <span className="text text-gray-800"></span>
+                </p>
             </article>
+            <!--Ejercicio 5, formulario basico-->
+            <h2>Formulario de incontacto</h2>
+            <form>
+                <label for='nombre'>Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required/><br /><br />
+                
+                <label for='email'>Correo electronico:</label>
+                <input type="text" id="email" name="email" required/><br /><br />
+
+                <label for='mensaje'>Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <br /><br />
+                <button type="submit">Enviar</button>
+
+            </form>
         </section>
 
         <aside>
             <h3>Contenido Relacionado</h3>
+            <!-- Ejercicio 4, imagenes-->
+             <img src="Gato.png"/>
             <p>Información para nada relevante.</p>
         </aside>
     </main>
