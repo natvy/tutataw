@@ -20,6 +20,7 @@ header {
 }
 
 nav ul {
+  background-color: aquamarine;
   list-style: none;
   padding: 0;
 }
@@ -30,7 +31,7 @@ nav ul li {
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
 }
